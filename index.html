@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Introduction</title>
   <style>
+    /* ===== Global Styles ===== */
     body {
       font-family: "Times New Roman", serif;
       background: url("saitama.jpg") no-repeat center center fixed;
@@ -14,6 +15,7 @@
       color: #000;
     }
 
+    /* ===== Header ===== */
     header h1 {
       font-size: 32px;
       font-weight: bold;
@@ -27,6 +29,7 @@
       margin: 20px auto;
     }
 
+    /* ===== Text & Paragraphs ===== */
     p {
       margin: 10px auto;
       width: 70%;
@@ -56,12 +59,20 @@
       width: 70%;
     }
 
+    /* ===== Links ===== */
     .links a {
       margin: 0 10px;
       color: black;
       text-decoration: underline;
     }
 
+    a.highlight {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* ===== Images ===== */
     figure {
       margin: 20px auto;
       text-align: center;
@@ -77,6 +88,7 @@
       margin-top: 5px;
     }
 
+    /* ===== Footer ===== */
     footer {
       margin: 30px auto;
       font-size: 14px;
@@ -84,13 +96,17 @@
   </style>
 </head>
 <body>
+  <!-- ===== Page Header ===== -->
   <header>
     <h1>Introduction</h1>
   </header>
 
   <hr>
 
+  <!-- ===== Main Content ===== -->
   <main>
+    <!-- Personal Info Section -->
+    <h2>About Me</h2>
     <p>
       Hello, my name is <strong>Saitama</strong>, also known as 
       <em>One Punch Man</em>.
@@ -103,7 +119,6 @@
       I trained so hard that I lost all my <del>hair</del>, and now I’m a professional 
       hero ranked in the Hero Association.
     </p>
-
     <p>
       My mentor was <u>Bang (Silver Fang)</u>, and my student is <mark>Genos</mark>.
     </p>
@@ -115,18 +130,21 @@
       My dream? Honestly, I just wanted to be a hero for fun… but now I seek a real challenge.
     </p>
 
+    <!-- Quote -->
     <blockquote>
       “Human beings are strong because we can change ourselves.” – Saitama
     </blockquote>
 
+    <!-- External Link -->
     <p>
       <a href="https://en.wikipedia.org/wiki/One-Punch_Man" 
          target="_blank" 
-         style="color: red; text-decoration: none; font-weight: bold;">
+         class="highlight">
         O<sub>n</sub>E P<sup>U</sup>N<sup>C</sup>H M<sub>a</sub>N
       </a>
     </p>
 
+    <!-- Image with Caption -->
     <figure>
       <a href="https://en.wikipedia.org/wiki/One-Punch_Man" target="_blank">
         <img src="saitama1.png" alt="Saitama in his hero suit standing confidently">
@@ -137,8 +155,11 @@
 
   <hr>
 
+  <!-- ===== Footer ===== -->
   <footer>
-    <p>&copy; Copyright 2025 All Rights Reserved</p>
+    <p>&copy; 2025 All Rights Reserved | 
+      <a href="mailto:hero@saitama.com">Contact Me</a>
+    </p>
   </footer>
 </body>
 </html>
